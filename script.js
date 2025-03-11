@@ -17,3 +17,6 @@ stringArray.forEach(str => {
 });
 
 console.table(stringCount);
+
+// Display the stringArray content in the HTML
+document.getElementById("stringArrayContent").innerText = `User input as array: ${stringArray.join(", ")}`;
